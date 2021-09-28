@@ -1,0 +1,26 @@
+.home {
+  &__hero {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    &__text {
+      &__main {
+        font-size: 9rem;
+        line-height: 1;
+      }
+      &__cta {
+        margin-left: 1rem;
+        font-size: 2rem;
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        border: 1px solid #ffffff;
+      }
+    }
+    &__img {
+      display: block;
+    }
+  }
+}

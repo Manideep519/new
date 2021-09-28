@@ -1,0 +1,16 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  &__video {
+    flex: 1 0 50%;
+
+    video {
+      width: 90%;
+    }
+  }
+  &__info {
+    flex: 1 0 50%;
+  }
+}

@@ -1,0 +1,25 @@
+.about {
+  &__icons {
+    display: flex;
+    flex-direction: column;
+
+    &__flex {
+      display: flex;
+
+      & > div {
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        margin-right: 4rem;
+
+        i {
+          font-size: 4rem;
+          padding-right: 1rem;
+        }
+        span {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}

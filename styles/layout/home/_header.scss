@@ -1,0 +1,16 @@
+.home {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+
+    &__logo {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      font-weight: 600;
+    }
+  }
+}

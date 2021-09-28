@@ -1,0 +1,14 @@
+.home {
+  &__header {
+    &__nav {
+      display: flex;
+      list-style-type: none;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      li a {
+        display: block;
+        padding: 0 2rem;
+      }
+    }
+  }
+}
