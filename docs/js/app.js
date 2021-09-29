@@ -11,7 +11,7 @@ let boxTwo = new hoverEffect({
   intensity: 0.5,
   image1: "./../media/images/10.jpg",
   image2: "./../media/images/11.jpg",
-  displacementImage: "/../media/images/disortion/10.jpg",
+  displacementImage: "./../media/images/disortion/10.jpg",
 });
 
 let boxThree = new hoverEffect({
